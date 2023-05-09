@@ -1,0 +1,25 @@
+.star-rating {
+	display:flex;
+	margin-top: 3px;
+}
+.star, .fa-star {
+	color: #f9ca24!important;
+}
+.star-full:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f005";
+	font-weight:900;
+	display:none;
+}
+.star-half:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f5c0";
+	font-weight:900;
+	display:none;
+}
+.star-empty:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f005";
+	font-weight:400;
+	display:none;
+}
